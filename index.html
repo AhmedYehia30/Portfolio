@@ -64,7 +64,7 @@
         <a href="#about" class="menu-link">About</a>
         <a href="#skills" class="menu-link">Skills</a>
         <a href="#projects" class="menu-link">Projects</a>
-        <a href="#education" class="menu-link">Education</a>
+        <a href="#education" class="menu-link">Education & Certificates</a>
         <a href="#contact" class="menu-link">Contact</a>
       </nav>
       <div class="menu-footer">
@@ -262,20 +262,115 @@
             </div>
           </div>
         </div>
+        <div class="project-card fade-in">
+          <div class="project-image">
+            <img src="images/project-nexus.jpeg" alt="My Nexus Design" />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">My-Nexus-Design</h3>
+            <p class="project-description">
+              A modern design system and UI component library built for scalable
+              web applications. Features reusable components, consistent styling,
+              and accessibility-focused design patterns for rapid development.
+            </p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>CSS3</span>
+              <span>Storybook</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card fade-in">
+          <div class="project-image">
+            <img src="images/project-portfolio.jpeg" alt="Portfolio Website" />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Portfolio</h3>
+            <p class="project-description">
+              A sleek and professional portfolio template with smooth animations,
+              dark mode toggle, and mobile-first responsive design. Perfect for
+              showcasing projects and skills with modern UI patterns.
+            </p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card fade-in">
+          <div class="project-image">
+            <img src="images/project-taskflow.jpeg" alt="TaskFlow" />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">TaskFlow</h3>
+            <p class="project-description">
+              A productivity task management application with drag-and-drop
+              functionality, project categorization, and progress tracking.
+              Built with React for seamless state management and user experience.
+            </p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>CSS3</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education">
+    <!-- Education & Certificates Combined Section -->
+    <section id="education" class="edu-cert-section">
       <div class="section-header fade-in">
         <p class="section-label">My Background</p>
-        <h2 class="section-title">Education</h2>
+        <h2 class="section-title">Education & Certificates</h2>
       </div>
-      <div class="education-timeline fade-in">
-        <div class="education-item">
-          <h3 class="education-degree">Bachelor of Computer Science</h3>
-          <p class="education-school">Tanta University</p>
-          <p class="education-year">In Progress -> 2028</p>
+      <div class="edu-cert-grid">
+        <!-- Education Card -->
+        <div class="edu-cert-card fade-in">
+          <div class="edu-cert-header">
+            <div class="edu-cert-icon edu-icon">
+              <svg class="icon" style="width: 28px; height: 28px">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <h3 class="edu-cert-title">Education</h3>
+          </div>
+          <div class="edu-cert-content">
+            <div class="edu-item">
+              <h4 class="edu-degree">Bachelor of Computer Science</h4>
+              <p class="edu-school">Tanta University</p>
+              <p class="edu-year">In Progress &rarr; 2028</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificates Card -->
+        <div class="edu-cert-card fade-in">
+          <div class="edu-cert-header">
+            <div class="edu-cert-icon cert-icon">
+              <svg class="icon" style="width: 28px; height: 28px">
+                <circle cx="12" cy="8" r="7"/>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+              </svg>
+            </div>
+            <h3 class="edu-cert-title">Certificates</h3>
+          </div>
+          <div class="edu-cert-content">
+            <div class="cert-item">
+              <div class="cert-badge">
+                <svg class="icon" style="width: 20px; height: 20px">
+                  <polyline points="9 11 12 14 22 4"/>
+                  <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+                </svg>
+              </div>
+              <div class="cert-info">
+                <h4 class="cert-name">React Front-End Development</h4>
+                <p class="cert-issuer">DEPI</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -290,14 +385,14 @@
         <div class="contact-info fade-in">
           <h3>Contact Information</h3>
           <div class="contact-links">
-            <a href="mailto:ahmedyehya781@example.com" class="contact-link">
+            <a href="mailto:ahmedyehya781@gmail.com" class="contact-link">
               <svg class="icon">
                 <path
                   d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
                 />
                 <polyline points="22,6 12,13 2,6" />
               </svg>
-              ahmedyehya781@example.com
+              ahmedyehya781@gmail.com
             </a>
             <a
               href="https://www.linkedin.com/in/ahmed-yehia-351301332"
@@ -351,7 +446,7 @@
                 <circle cx="4" cy="4" r="2" />
               </svg>
             </a>
-            <a href="mailto:ahmedyehya781@example.com" aria-label="Email">
+            <a href="mailto:ahmedyehya781@gmail.com" aria-label="Email">
               <svg class="icon">
                 <path
                   d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
@@ -361,19 +456,28 @@
             </a>
           </div>
         </div>
-        <form class="contact-form fade-in" id="contactForm">
+        <form
+          class="contact-form fade-in"
+          id="contactForm"
+          action="https://formsubmit.co/ahmedyehya781@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="New message from your portfolio!">
+          <input type="hidden" name="_template" value="table">
           <div class="form-group">
-            <label for="name">Name</label>
+            <label for="name">Name <span class="required">*</span></label>
             <input
               type="text"
               id="name"
               name="name"
               placeholder="Your name"
               required
+              minlength="2"
             />
+            <span class="error-message" id="nameError">Please enter your name (at least 2 characters)</span>
           </div>
           <div class="form-group">
-            <label for="email">Email</label>
+            <label for="email">Email <span class="required">*</span></label>
             <input
               type="email"
               id="email"
@@ -381,22 +485,50 @@
               placeholder="your@email.com"
               required
             />
+            <span class="error-message" id="emailError">Please enter a valid email address</span>
           </div>
           <div class="form-group">
-            <label for="message">Message</label>
+            <label for="message">Message <span class="required">*</span></label>
             <textarea
               id="message"
               name="message"
               placeholder="Your message..."
               required
+              minlength="10"
             ></textarea>
+            <span class="error-message" id="messageError">Please enter a message (at least 10 characters)</span>
           </div>
-          <button type="submit" class="btn btn-primary" style="width: 100%">
-            <svg class="icon" style="width: 25px; height: 25px">
+          
+          <!-- Success/Error Messages -->
+          <div class="form-message success-message" id="successMessage">
+            <svg class="icon" style="width: 20px; height: 20px">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+            <span>Thank you! Your message has been sent successfully.</span>
+          </div>
+          <div class="form-message error-message-box" id="errorMessage">
+            <svg class="icon" style="width: 20px; height: 20px">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="15" y1="9" x2="9" y2="15"/>
+              <line x1="9" y1="9" x2="15" y2="15"/>
+            </svg>
+            <span>Oops! Something went wrong. Please try again.</span>
+          </div>
+
+          <button type="submit" class="btn btn-primary" id="submitBtn" style="width: 100%">
+            <svg class="icon btn-icon" style="width: 20px; height: 20px">
               <line x1="22" y1="2" x2="11" y2="13" />
               <polygon points="22 2 15 22 11 13 2 9 22 2" />
             </svg>
-            Send Message
+            <span class="btn-text">Send Message</span>
+            <span class="btn-loading">
+              <svg class="icon spinning" style="width: 20px; height: 20px">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 2a10 10 0 0 1 10 10"/>
+              </svg>
+              Sending...
+            </span>
           </button>
         </form>
       </div>
@@ -490,17 +622,121 @@
 
       fadeElements.forEach((el) => observer.observe(el));
 
-      // Contact Form
+      // Contact Form with Formspree
       const contactForm = document.getElementById("contactForm");
-      contactForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const formData = new FormData(contactForm);
-        const name = formData.get("name");
+      const submitBtn = document.getElementById("submitBtn");
+      const successMessage = document.getElementById("successMessage");
+      const errorMessage = document.getElementById("errorMessage");
+      const nameInput = document.getElementById("name");
+      const emailInput = document.getElementById("email");
+      const messageInput = document.getElementById("message");
 
-        alert(
-          `Thank you, ${name}! Your message has been sent. I'll get back to you soon.`,
-        );
-        contactForm.reset();
+      // Real-time validation
+      function validateEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+      }
+
+      function showFieldError(input, show) {
+        const errorEl = document.getElementById(input.id + 'Error');
+        if (show) {
+          input.classList.add('error');
+          errorEl.style.display = 'block';
+        } else {
+          input.classList.remove('error');
+          errorEl.style.display = 'none';
+        }
+      }
+
+      nameInput.addEventListener('blur', () => {
+        showFieldError(nameInput, nameInput.value.length < 2);
+      });
+
+      emailInput.addEventListener('blur', () => {
+        showFieldError(emailInput, !validateEmail(emailInput.value));
+      });
+
+      messageInput.addEventListener('blur', () => {
+        showFieldError(messageInput, messageInput.value.length < 10);
+      });
+
+      nameInput.addEventListener('input', () => {
+        if (nameInput.classList.contains('error')) {
+          showFieldError(nameInput, nameInput.value.length < 2);
+        }
+      });
+
+      emailInput.addEventListener('input', () => {
+        if (emailInput.classList.contains('error')) {
+          showFieldError(emailInput, !validateEmail(emailInput.value));
+        }
+      });
+
+      messageInput.addEventListener('input', () => {
+        if (messageInput.classList.contains('error')) {
+          showFieldError(messageInput, messageInput.value.length < 10);
+        }
+      });
+
+      contactForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        // Hide previous messages
+        successMessage.style.display = 'none';
+        errorMessage.style.display = 'none';
+
+        // Validate all fields
+        let isValid = true;
+
+        if (nameInput.value.length < 2) {
+          showFieldError(nameInput, true);
+          isValid = false;
+        }
+
+        if (!validateEmail(emailInput.value)) {
+          showFieldError(emailInput, true);
+          isValid = false;
+        }
+
+        if (messageInput.value.length < 10) {
+          showFieldError(messageInput, true);
+          isValid = false;
+        }
+
+        if (!isValid) return;
+
+        // Show loading state
+        submitBtn.classList.add('loading');
+        submitBtn.disabled = true;
+
+        try {
+          const formData = new FormData(contactForm);
+          const response = await fetch(contactForm.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+              'Accept': 'application/json'
+            }
+          });
+
+          if (response.ok) {
+            successMessage.style.display = 'flex';
+            contactForm.reset();
+            // Clear any error states
+            [nameInput, emailInput, messageInput].forEach(input => {
+              input.classList.remove('error');
+              document.getElementById(input.id + 'Error').style.display = 'none';
+            });
+          } else {
+            throw new Error('Form submission failed');
+          }
+        } catch (error) {
+          errorMessage.style.display = 'flex';
+          console.error('Form error:', error);
+        } finally {
+          submitBtn.classList.remove('loading');
+          submitBtn.disabled = false;
+        }
       });
 
       // Smooth scroll for anchor links
